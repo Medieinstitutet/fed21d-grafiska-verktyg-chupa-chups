@@ -1,10 +1,13 @@
 # Om Designen
 
 Låt dig inte luras av vårt gruppnamn! Detta är inte om företaget Chupa Chups eller om klubbor. 
-Nej detta är något ännu bättre! 
+Nej detta är något ännu bättre!
+
 Vi valde att skapa en sida som vi vet kommer vara aktuellt i framtiden, det är bara en tidsfråga! 
 Nämligen lasersvärd något som alla är i behov av. 
-Såga ner träd, skära bröd, sitter du bakom galler och bom efter en tuff AW med jobbet och behöver komma därifrån innan frugan blir arg? Den fixar det med! 
+Såga ner träd, skära bröd, sitter du bakom galler och bom efter en tuff AW med jobbet och behöver komma därifrån innan frugan blir arg?
+
+Den fixar det med! 
 I och med att den fyller så många behov så valde vi att inte gå in på djupet då vi kände att det skulle begränsa våra kunder. 
 Vi vill att de ska kunna se själva vad de kan använda våran produkt till.
 
