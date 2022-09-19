@@ -22,7 +22,7 @@ Kommunikationen är den viktigaste så vi alla är på samma plan och vi alla l�
 
 ## Underskrivet av
 
-[Magnus Vahlström](https://github.com/wahlstrommm)
-[Anton Torkkeli Johansson](https://github.com/kodareAnton)
-[Jenny Anne Höök](https://github.com/JennyAnneHook)
-[Jonas Eriksson](https://github.com/Adrijun)
+- [Magnus Vahlström](https://github.com/wahlstrommm)
+- [Anton Torkkeli Johansson](https://github.com/kodareAnton)
+- [Jenny Anne Höök](https://github.com/JennyAnneHook)
+- [Jonas Eriksson](https://github.com/Adrijun)
