@@ -7,7 +7,7 @@ export default function Document() {
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
         <link
-          href='https://fonts.googleapis.com/css2?family=Alef&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Alef&family=Inter:wght@700&family=Itim&family=Poppins:wght@400;700&display=swap'
           rel='stylesheet'
         />
       </Head>

@@ -2,7 +2,7 @@ import React from 'react';
 import grogu from '../assets/grogu.png';
 import Image from 'next/image';
 
-const quote = () => {
+const Quote = () => {
   return (
     <div className='flex flex-row m-1 justify-center items-center space-x-4'>
       <Image src={grogu} />
@@ -17,4 +17,4 @@ const quote = () => {
   );
 };
 
-export default quote;
+export default Quote;

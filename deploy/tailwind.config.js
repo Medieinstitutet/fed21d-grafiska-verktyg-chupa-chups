@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         quote: ['Alef'],
+        heading: ['Itim'],
+        content: ['Inter'],
+        form: ['Poppins'],
       },
     },
   },
