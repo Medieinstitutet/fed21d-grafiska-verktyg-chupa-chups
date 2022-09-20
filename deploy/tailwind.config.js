@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         quote: ['Alef'],
-        heading: ['Itim'],
+        heading: ['Fjalla One'],
         content: ['Inter'],
         form: ['Poppins'],
       },
