@@ -6,7 +6,6 @@ import Landingpage from '../components/Landingpage';
 const index = () => {
   return (
     <div>
-      index
       <Header />
       <Landingpage />
       <Quote />
