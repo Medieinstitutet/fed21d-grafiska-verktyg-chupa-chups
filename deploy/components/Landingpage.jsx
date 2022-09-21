@@ -13,7 +13,7 @@ const Landingpage = () => {
 
   return (
     <>
-      <div className='flex flex-row items-center relative left-2 top-2'>
+      <div className='z-10 flex flex-row items-center relative left-2 top-2 w-[98vw]'>
         <label
           htmlFor='default-toggle'
           className='inline-flex relative items-center'
@@ -38,7 +38,7 @@ const Landingpage = () => {
           <span className=' font-content text-2xl p-1'>Order</span>
         </button>
       </div>
-      <div className='w-[275px] relative -left-9 mt-10'>
+      <div className='w-[275px] relative -left-9 mt-10 z-10'>
         <Image src={moon} />
       </div>
     </>
