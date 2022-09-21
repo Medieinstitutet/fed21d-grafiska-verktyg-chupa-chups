@@ -4,20 +4,28 @@ import moon from '../assets/moon.jpeg';
 import Switch from '@mui/material/Switch';
 import gubbe from '../assets/gubbe.png';
 
-const label = { inputProps: { 'aria-label': 'Switch demo' } };
+// const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 const Landingpage = () => {
+  const handleSwitch = () => {
+    console.log('True');
+  };
+
   return (
     <>
       <div className='flex flex-row items-center relative left-2 top-2'>
-        <label for='default-toggle' class='inline-flex relative items-center'>
+        <label
+          htmlFor='default-toggle'
+          className='inline-flex relative items-center'
+        >
           <input
             type='checkbox'
             value=''
             id='default-toggle'
-            class='sr-only peer'
+            className='sr-only peer'
+            onChange={handleSwitch}
           />
-          <div class="mr-3 w-11 h-6 bg-[#4D4949] rounded-full peer dark:bg-[#4D4949] peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-[#4D4949] peer-checked:bg-[#32D74B]"></div>
+          <div className="mr-3 w-11 h-6 bg-[#4D4949] rounded-full peer dark:bg-[#4D4949] peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-[#4D4949] peer-checked:bg-[#32D74B]"></div>
         </label>
 
         <Image src={gubbe} height={25} width={27} />
