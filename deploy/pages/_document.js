@@ -10,8 +10,9 @@ export default function Document() {
           href='https://fonts.gstatic.com'
           crossOrigin='anonymous'
         />
+
         <link
-          href='https://fonts.googleapis.com/css2?family=Alef&family=Fjalla+One&family=Inter:wght@700&family=Itim&family=Poppins:wght@400;700&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Alef&family=Fjalla+One&family=Inder&family=Inter:wght@700&family=Itim&family=Poppins:wght@400;700&display=swap'
           rel='stylesheet'
         />
       </Head>

@@ -8,11 +8,11 @@ const Header = () => {
 
   return (
     <>
-      <header className='w-screen h-20 top-0 bg-black-400 drop-shadow-lg border-b-2 flex justify-center'>
+      <header className='w-screen h-20 top-0 bg-black-400 drop-shadow-lg border-b-2 flex justify-center md:justify-start'>
         {/* <div className='w-[8rem] absolute mx-[32%] mt-8 border-4 border-black'>
           <Image src={logo} />
         </div> */}
-        <div className='w-[8rem] items-center border-4 border-black mt-[0.95rem]'>
+        <div className='w-[8rem] items-center border-4 border-black mt-[0.95rem] md:items-start md:w-[6rem]'>
           <Image src={logo} />
         </div>
         {/* <div className='container px-4 md:px-0 h-full mx-auto flex justify-end items-center absolute'>
@@ -52,13 +52,13 @@ const Header = () => {
         </div> */}
         <div className='flex items-center absolute right-0 '>
           <nav>
-            <section className='MOBILE-MENU flex lg:hidden justify-between'>
+            <section className='MOBILE-MENU flex md:hidden justify-between'>
               <div
                 className='HAMBURGER-ICON space-y-2 px-2 py-4'
                 onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
               >
                 <span className='block h-0.5 w-8  bg-[#EFAC2B]'></span>
-                <span className='block h-0.5 w-8  bg-[#EFAC2B]'></span>
+                <span className='block h-0.5 w-8 ml-1  bg-[#EFAC2B]'></span>
                 <span className='block h-0.5 w-8  bg-[#EFAC2B]'></span>
               </div>
 
@@ -95,15 +95,15 @@ const Header = () => {
               </div>
             </section>
 
-            <ul className='DESKTOP-MENU hidden space-x-8 lg:flex text-white'>
+            <ul className='DESKTOP-MENU hidden space-x-8 md:flex text-white md:mt-6 md:mr-6 md:text-2xl'>
               <li>
-                <a href='/about'>About</a>
+                <a href='/about'>Home</a>
               </li>
               <li>
-                <a href='/portfolio'>Portfolio</a>
+                <a href='/portfolio'>About</a>
               </li>
               <li>
-                <a href='/contact'>Contact</a>
+                <a href='/contact'>FAQ</a>
               </li>
             </ul>
           </nav>
@@ -128,7 +128,6 @@ const Header = () => {
       }
     `}</style>
         </div>
-        );
       </header>
     </>
   );

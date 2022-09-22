@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Quote = () => {
   return (
-    <div className='flex flex-row m-1 justify-center items-center space-x-4'>
+    <div className='flex flex-row m-1 justify-center items-center space-x-4 md:justify-start ml-16'>
       <Image src={grogu} />
 
       <p className=' font-quote text-xl max-w-[11rem] '>

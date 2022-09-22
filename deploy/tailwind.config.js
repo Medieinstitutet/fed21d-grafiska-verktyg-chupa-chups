@@ -11,6 +11,7 @@ module.exports = {
         heading: ['Fjalla One'],
         content: ['Inter'],
         form: ['Poppins'],
+        force: ['Inder'],
       },
     },
   },
