@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <>
-      <header className='w-screen h-20 top-0 bg-black-400 drop-shadow-lg border-b-2 flex justify-center md:justify-start'>
+      <header className='w-screen h-20 top-0 bg-black-400 drop-shadow-lg border-b-2 flex justify-center md:justify-start z-50 relative'>
         {/* <div className='w-[8rem] absolute mx-[32%] mt-8 border-4 border-black'>
           <Image src={logo} />
         </div> */}
@@ -50,9 +50,9 @@ const Header = () => {
             </button>
           </div>
         </div> */}
-        <div className='flex items-center absolute right-0 '>
+        <div className='flex items-center absolute right-0'>
           <nav>
-            <section className='MOBILE-MENU flex md:hidden justify-between'>
+            <section className='MOBILE-MENU flex md:hidden justify-between relative'>
               <div
                 className='HAMBURGER-ICON space-y-2 px-2 py-4'
                 onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click

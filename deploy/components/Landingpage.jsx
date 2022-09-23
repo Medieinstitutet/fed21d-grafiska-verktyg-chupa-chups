@@ -8,12 +8,12 @@ import gubbe from '../assets/gubbe.png';
 
 const Landingpage = () => {
   const handleSwitch = () => {
-    console.log('True');
+    document.body.classList.toggle('a11y');
   };
 
   return (
     <>
-      <div className='z-10 flex flex-row items-center relative left-2 top-2 w-[98vw]'>
+      <div className='flex flex-row items-center relative left-2 top-2 w-[98vw]'>
         <label
           htmlFor='default-toggle'
           className='inline-flex relative items-center'
@@ -41,7 +41,7 @@ const Landingpage = () => {
           <span className=' font-content text-2xl p-1'>Order</span>
         </button>
       </div>
-      <div className='w-[275px] relative -left-9 mt-10 z-10 md:w-[550px]'>
+      <div className='w-[275px] relative -left-9 mt-10 -z-0 md:w-[550px]'>
         <Image src={moon} />
       </div>
     </>
