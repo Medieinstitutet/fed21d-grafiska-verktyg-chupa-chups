@@ -22,8 +22,45 @@ a {
 
 .a11y .font-heading {
   font-family: 'Times New Roman', Times, serif !important;
-  font-size: 2rem;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  text-transform: capitalize;
+}
+
+.a11y .font-desktopMenu {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 1.5rem;
+  text-transform: none;
 }
 .a11y .font-content {
   font-family: 'Times New Roman', Times, serif !important;
+}
+
+.a11y .font-cards {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.a11y .font-quote {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 1.3rem;
+  text-transform: none;
+}
+
+.a11y .font-color {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 1.5rem;
+  text-transform: none;
+}
+
+.a11y .font-form {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.a11y .font-force {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 1rem;
+  text-transform: none;
 }
