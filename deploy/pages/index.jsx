@@ -8,25 +8,25 @@ import Footer from '../components/Footer';
 import Cookies from '../components/Cookies';
 
 const index = () => {
-	return (
-		<>
-			<Cookies />
+  return (
+    <>
+      <Cookies />
 
-			<div>
-				<Header />
-				<Landingpage />
-				<div className='hidden md:block'>
-					<Quote />
-				</div>
-				<Cards />
-				<div className='md:hidden'>
-					<Quote />
-				</div>
-				<Order />
-				<Footer />
-			</div>
-		</>
-	);
+      <div>
+        <Header />
+        <Landingpage />
+        <div className='hidden md:block lg:hidden'>
+          <Quote />
+        </div>
+        <Cards />
+        <div className='md:hidden'>
+          <Quote />
+        </div>
+        <Order />
+        <Footer />
+      </div>
+    </>
+  );
 };
 
 export default index;
