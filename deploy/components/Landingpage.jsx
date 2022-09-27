@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import moon from '../assets/moon.jpeg';
-import Switch from '@mui/material/Switch';
 import gubbe from '../assets/gubbe.png';
 
 // const label = { inputProps: { 'aria-label': 'Switch demo' } };

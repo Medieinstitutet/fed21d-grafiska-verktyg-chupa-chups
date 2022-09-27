@@ -11,7 +11,6 @@ const index = () => {
   return (
     <>
       <Cookies />
-
       <div>
         <Header />
         <Landingpage />
