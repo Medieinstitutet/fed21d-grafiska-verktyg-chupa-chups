@@ -27,19 +27,19 @@ const order = () => {
               </h4>
               <form>
                 <input
-                  class='shadow appearance-none bg-inherit border-2 border-slate-200 rounded-3xl w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline mb-5 hover:shadow-[0_0px_10px_5px_#ff0000]'
+                  className='shadow appearance-none bg-inherit border-2 border-slate-200 rounded-3xl w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline mb-5 hover:shadow-[0_0px_10px_5px_#ff0000]'
                   id='username'
                   type='text'
                   placeholder='Enter name'
                 />
                 <input
-                  class='shadow appearance-none bg-inherit border-2 border-slate-200 rounded-3xl w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline mb-5 hover:shadow-[0_0px_10px_5px_#ff0000]'
+                  className='shadow appearance-none bg-inherit border-2 border-slate-200 rounded-3xl w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline mb-5 hover:shadow-[0_0px_10px_5px_#ff0000]'
                   id='email'
                   type='text'
                   placeholder='Enter email'
                 />
                 <input
-                  class='shadow appearance-none bg-inherit border-2 border-slate-50 rounded-3xl w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-[0_0px_10px_5px_#ff0000]'
+                  className='shadow appearance-none bg-inherit border-2 border-slate-50 rounded-3xl w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-[0_0px_10px_5px_#ff0000]'
                   id='color'
                   type='text'
                   placeholder='Enter color'

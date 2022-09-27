@@ -18,12 +18,12 @@ const Cookies = () => {
               </p>
               <div className='flex flex-row gap-4'>
                 <a href='https://www.youtube.com/watch?v=CgYSRaiGDnI'>
-                  <button className='bg-[#FF0B0B] max-w-max text-3xl text-white hover:text-[#6F2121] hover:bg-black font-bold py-2 px-4 mt-6 border-b-2 border-[#A42828]  rounded-md '>
+                  <button className='bg-[#FF0B0B] max-w-max text-3xl text-white hover:text-[#6F2121] hover:bg-black font-bold py-2 px-4 mt-6 mr-4 border-b-2 border-[#A42828]  rounded-md '>
                     Deny
                   </button>
                 </a>
                 <button
-                  className='bg-[#26C252] max-w-max text-3xl text-white  hover:text-[#185028] hover:bg-black font-bold py-2 px-4 mt-6 border-b-2 border-[#28A44B]  rounded-md '
+                  className='bg-[#26C252] max-w-max text-3xl text-white  hover:text-[#185028] hover:bg-black font-bold py-2 px-4 mt-6  border-b-2 border-[#28A44B]  rounded-md '
                   onClick={handleCookies}
                 >
                   Accept
