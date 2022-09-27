@@ -30,3 +30,6 @@ Sen i de båda lägena oavsett skärmstorlek så har vi tänkt på knapparna hur
 Det gula syns tydligt pga våran svart bakgrund något som vi hade i bakhuvudet då vi valde färgerna och tema. 
 
 Vi kände att det inte var tillräckligt för oss att bara kolla på kontrasterna mellan färgerna och fonterna så vi hade en grupp med olika typer av syn,läs svårigheter som fick komma och kolla och ge oss feedback på våran design.  
+
+Deploy:
+https://lightsaber-x.vercel.app/
