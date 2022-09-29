@@ -1,5 +1,5 @@
 import React from 'react';
-import Lightsabers from '../assets/Lightsabers.png';
+import lightsabers from '../assets/lightsabers.png';
 import Image from 'next/image';
 import Quote from '../components/Quote';
 
@@ -14,7 +14,7 @@ const order = () => {
             </h3>
 
             <div className='mx-12 md:mx-36 lg:mx-12 lg:min-w-[30rem] lg:max-w-[30rem]'>
-              <Image src={Lightsabers} />
+              <Image alt='Image of lightsabers' src={lightsabers} />
             </div>
             <div className='hidden md:hidden lg:block'>
               <Quote />
@@ -25,20 +25,35 @@ const order = () => {
               <h4 className='text-2xl font-bold border-b-2 my-7 text-center'>
                 Order
               </h4>
+
               <form>
+                <label htmlFor='name' className='hidden'>
+                  Name
+                </label>
                 <input
+                  name='name'
                   className='shadow appearance-none bg-inherit border-2 border-slate-200 rounded-3xl w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline mb-5 hover:shadow-[0_0px_10px_5px_#ff0000]'
                   id='username'
                   type='text'
                   placeholder='Enter name'
                 />
+
+                <label htmlFor='email' className='hidden'>
+                  Email
+                </label>
                 <input
+                  name='email'
                   className='shadow appearance-none bg-inherit border-2 border-slate-200 rounded-3xl w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline mb-5 hover:shadow-[0_0px_10px_5px_#ff0000]'
                   id='email'
                   type='text'
                   placeholder='Enter email'
                 />
+
+                <label htmlFor='color' className='hidden'>
+                  Color
+                </label>
                 <input
+                  name='color'
                   className='shadow appearance-none bg-inherit border-2 border-slate-50 rounded-3xl w-full py-2 px-3 text-white-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-[0_0px_10px_5px_#ff0000]'
                   id='color'
                   type='text'
