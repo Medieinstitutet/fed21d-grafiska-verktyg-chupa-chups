@@ -1,8 +1,8 @@
 import React from 'react';
 import email_icon from '../assets/email_icon.png';
-import linkedin_icon from '../assets/linkedin_icon.png';
+import linkedin_icon from '../assets/linkedin_icon.jpg';
 import phone_icon from '../assets/phone_icon.png';
-import facebook_icon from '../assets/facebook_icon.png';
+import facebook_icon from '../assets/facebook_icon.jpg';
 import Image from 'next/image';
 
 const Footer = () => {

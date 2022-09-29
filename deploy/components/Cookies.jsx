@@ -11,7 +11,7 @@ const Cookies = () => {
     <>
       {showCookie && (
         <div className='w-screen h-screen backdrop-blur-md fixed bg-gradient-to-b from-black via-[#1d1d1d] to-[#9c9c9c85] z-50 md:h-72 lg:h-32 md:bottom-0 md:bg-gradient-to-b md:from-white/50 md:via-black'>
-          <content className='flex flex-col items-center md:flex md:gap-[3rem] md:flex-row md:ml-40 lg:justify-end lg:mr-14 lg:mt-[1rem]'>
+          <div className='flex flex-col items-center md:flex md:gap-[3rem] md:flex-row md:ml-40 lg:justify-end lg:mr-14 lg:mt-[1rem]'>
             <p className='text-white font-force text-2xl mt-[500px] md:mt-5'>
               Fulfill your cookie destiny
             </p>
@@ -28,7 +28,7 @@ const Cookies = () => {
                 Accept
               </button>
             </div>
-          </content>
+          </div>
         </div>
       )}
     </>

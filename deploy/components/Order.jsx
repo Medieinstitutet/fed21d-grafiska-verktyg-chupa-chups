@@ -1,5 +1,5 @@
 import React from 'react';
-import lightsabers from '../assets/lightsabers.png';
+import lightsabers from '../assets/Lightsabers.jpg';
 import Image from 'next/image';
 import Quote from '../components/Quote';
 
