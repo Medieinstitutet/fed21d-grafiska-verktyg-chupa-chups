@@ -1,8 +1,8 @@
 import React from 'react';
-import emailloggo from '../assets/emailloggo.png';
-import linkedinloggo from '../assets/linkedinloggo.png';
-import phoneloggo from '../assets/phoneloggo.png';
-import facebook from '../assets/facebook.png';
+import email_icon from '../assets/email_icon.png';
+import linkedin_icon from '../assets/linkedin_icon.jpg';
+import phone_icon from '../assets/phone_icon.png';
+import facebook_icon from '../assets/facebook_icon.jpg';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -15,25 +15,43 @@ const Footer = () => {
       </p>
 
       <div className='flex flex-row gap-14 mx-10 mt-4 pb-24 md:hidden'>
-        <Image src={linkedinloggo} />
-        <Image src={facebook} />
-        <Image src={emailloggo} />
-        <Image src={phoneloggo} />
+        <Image alt='Linkedin icon' src={linkedin_icon} />
+        <Image alt='facebook icon' src={facebook_icon} />
+        <Image alt='Email icon' src={email_icon} />
+        <Image alt='Telephone icon' src={phone_icon} />
       </div>
 
       <section className='hidden md:flex md:flex-row md:text-white md:my-4 md:w-[90vw] md:mb-24 font-force md:mt-20 md:justify-evenly md:text-center'>
         <div className='md:flex md:flex-col md:grow'>
           <p className='md:mb-8 md:text-xl'>Contacts</p>
           <div className='md:flex md:flex-row md:mb-2 md:pl-14 md:-mr-14 lg:pl-28'>
-            <Image src={phoneloggo} layout={'fixed'} height={30} width={30} />{' '}
+            <Image
+              alt='Telephone icon'
+              src={phone_icon}
+              layout={'fixed'}
+              height={30}
+              width={30}
+            />{' '}
             <p className='md:ml-4'>070-xxx xx xx</p>
           </div>
           <div className='md:flex md:flex-row md:mb-2 md:pl-14 md:-mr-14 lg:pl-28'>
-            <Image src={emailloggo} layout={'fixed'} height={30} width={30} />{' '}
+            <Image
+              alt='Email icon'
+              src={email_icon}
+              layout={'fixed'}
+              height={30}
+              width={30}
+            />{' '}
             <p className='md:ml-4'>starwars@starwars.com</p>
           </div>
           <div className='md:flex md:flex-row md:pl-14 md:-mr-14 lg:pl-28'>
-            <Image src={facebook} layout={'fixed'} height={30} width={30} />{' '}
+            <Image
+              alt='facebook icon'
+              src={facebook_icon}
+              layout={'fixed'}
+              height={30}
+              width={30}
+            />{' '}
             <p className='md:ml-4'>Starwars</p>
           </div>
         </div>
